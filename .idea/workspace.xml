@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="BuildServerSettings">
+    <option name="LOGIN" value="Admin" />
+    <option name="SERVER_URL" value="http://localhost:8111" />
+    <option name="COMMIT_PATTERN" value="{message}" />
+    <option name="REMEMBER_ME" value="true" />
+    <option name="USE_IDEA_PROXY_SETTINGS" value="true" />
+    <option name="INSPECTIONS_BUILD_TYPE_IDS" />
+    <option name="DUPLICATES_BUILD_TYPE_IDS" />
+    <option name="ENABLE_SUITABLE_CONFIGURATION_CACHING" value="true" />
+    <option name="COVERAGE_SETTINGS" />
+    <option name="TEST_STATUS_ENABLED" value="true" />
+    <option name="TEST_STATUS_SHOW_SUCCESSFUL" value="false" />
+    <option name="POSTPONE_SUITABLE_CONFIGURATIONS_SEARCH" value="false" />
+    <option name="ARTIFACTS_BUILD_TYPE_IDS" />
+    <option name="PERFORM_COMMIT_IF_SUCCESSFUL" value="true" />
+    <option name="PERFORM_COMMIT_IF_NO_NEW_FAILED_TESTS" value="false" />
+    <option name="REQUEST_CONFIRMATON" value="false" />
+    <option name="PRE_TESTED_COMMIT" value="true" />
+    <option name="FILTER_BY_STATUS" value="false" />
+    <option name="FILTER_MARKED_AS_FIXED" value="false" />
+    <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="feaeac44-aaff-45c5-b07d-0c9d4cf49cef" name="Default Changelist" comment="test" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains2\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gwtZwRdPbbSb4BaB0yMtMmuPI5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Animals" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AnimalTest.testReservation">
+    <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Animals" />
+      <option name="MAIN_CLASS_NAME" value="Animals.AnimalTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Animals" />
+      <option name="MAIN_CLASS_NAME" value="Animals.AnimalTest" />
+      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AnimalTest.testReservation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AnimalShelter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Animals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Animals" />
+      <option name="MAIN_CLASS_NAME" value="Animals.AnimalTest" />
+      <option name="METHOD_NAME" value="testReservation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AnimalTest.testReservation" />
+        <item itemvalue="JUnit.AnimalTest" />
+        <item itemvalue="JUnit.AnimalTest.testConstructor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SuitableConfigurationIdsCache">
+    <SERVER_URL values="" />
+    <FIRST_MONTH_REVISION values="" />
+    <SUITABLE_CONFIGURATIONS_IDS values="" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="feaeac44-aaff-45c5-b07d-0c9d4cf49cef" name="Default Changelist" comment="" />
+      <created>1599037543764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599037543764</updated>
+      <workItem from="1599037544883" duration="3118000" />
+      <workItem from="1599050410741" duration="92000" />
+      <workItem from="1599050523326" duration="1433000" />
+      <workItem from="1599052257031" duration="15000" />
+      <workItem from="1599052720265" duration="49000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1599051192264</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599051192264</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="556" y="167" key="CommitChangelistDialog2" timestamp="1599051351396">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="556" y="167" key="CommitChangelistDialog2/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599051351396" />
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599042462754">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462754" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599042462753">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462753" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599042462753">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462753" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599042462753">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462753" />
+    <state x="440" y="154" key="SettingsEditor" timestamp="1599052767898">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="440" y="154" key="SettingsEditor/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599052767898" />
+    <state x="138" y="120" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599051149764">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="138" y="120" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599051149764" />
+    <state x="777" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1599050760293">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="777" y="494" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599050760293" />
+    <state x="731" y="338" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1599037846662">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="731" y="338" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599037846662" />
+  </component>
+</project>
