@@ -7,7 +7,6 @@ import org.junit.runner.Runner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@RunWith(Runner.class)
 class AnimalTest {
     private Animal animal;
 
