@@ -44,9 +44,7 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feaeac44-aaff-45c5-b07d-0c9d4cf49cef" name="Default Changelist" comment="test">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Animals/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Animals/AnimalTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="feaeac44-aaff-45c5-b07d-0c9d4cf49cef" name="Default Changelist" comment="test" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,7 +165,7 @@
       <workItem from="1599050410741" duration="92000" />
       <workItem from="1599050523326" duration="1433000" />
       <workItem from="1599052257031" duration="15000" />
-      <workItem from="1599052720265" duration="348000" />
+      <workItem from="1599052720265" duration="1008000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599051192264</created>
@@ -176,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599051192264</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1599053077273</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599053077273</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,6 +228,10 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="440" y="154" key="SettingsEditor/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599052791694" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1599053089049">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599053089049" />
     <state x="138" y="120" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599051149764">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
