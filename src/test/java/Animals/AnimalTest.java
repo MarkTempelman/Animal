@@ -2,9 +2,12 @@ package Animals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.runner.RunWith;
+import org.junit.runner.Runner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+@RunWith(Runner.class)
 class AnimalTest {
     private Animal animal;
 
