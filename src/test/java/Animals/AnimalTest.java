@@ -2,8 +2,6 @@ package Animals;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
-import org.junit.runner.Runner;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -16,14 +14,14 @@ class AnimalTest {
     }
 
     @Test
-    void testConstructor() {
+    void TestConstructor() {
         assertEquals("Ugly Duckling", this.animal.getName());
         assertEquals(Gender.Male, this.animal.getGender());
         assertNull(this.animal.getReservedBy());
     }
 
     @Test
-    void testReservation(){
+    void TestReservation(){
         assertNull(this.animal.getReservedBy());
         assertTrue(this.animal.reserve("John Doe"));
         assertNotNull(this.animal.getReservedBy());

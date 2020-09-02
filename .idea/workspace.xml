@@ -44,7 +44,11 @@
     <option name="TOOL_WINDOW_SELECTED_CONTENT_INDEX" value="0" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="feaeac44-aaff-45c5-b07d-0c9d4cf49cef" name="Default Changelist" comment="test4" />
+    <list default="true" id="feaeac44-aaff-45c5-b07d-0c9d4cf49cef" name="Default Changelist" comment="test5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Animals/AnimalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Animals/AnimalTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,7 +68,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Program Files\JetBrains2\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -82,7 +87,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -93,17 +98,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.AnimalTest.testReservation">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="AnimalTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AnimalShelter" />
       <extension name="coverage">
@@ -176,7 +170,7 @@
       <workItem from="1599050410741" duration="92000" />
       <workItem from="1599050523326" duration="1433000" />
       <workItem from="1599052257031" duration="15000" />
-      <workItem from="1599052720265" duration="2406000" />
+      <workItem from="1599052720265" duration="2971000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1599051192264</created>
@@ -206,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599055583667</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test5">
+      <created>1599055745692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1599055745692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,41 +230,42 @@
     <MESSAGE value="test2" />
     <MESSAGE value="test3" />
     <MESSAGE value="test4" />
-    <option name="LAST_COMMIT_MESSAGE" value="test4" />
+    <MESSAGE value="test5" />
+    <option name="LAST_COMMIT_MESSAGE" value="test5" />
   </component>
   <component name="WindowStateProjectService">
     <state x="556" y="167" key="CommitChangelistDialog2" timestamp="1599051351396">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="556" y="167" key="CommitChangelistDialog2/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599051351396" />
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599042462754">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom" timestamp="1599056275597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462754" />
-    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599042462753">
+    <state width="1877" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599056275597" />
+    <state width="1877" height="321" key="GridCell.Tab.0.center" timestamp="1599056275597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462753" />
-    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599042462753">
+    <state width="1877" height="321" key="GridCell.Tab.0.center/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599056275597" />
+    <state width="1877" height="321" key="GridCell.Tab.0.left" timestamp="1599056275596">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462753" />
-    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599042462753">
+    <state width="1877" height="321" key="GridCell.Tab.0.left/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599056275596" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right" timestamp="1599056275597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599042462753" />
+    <state width="1877" height="321" key="GridCell.Tab.0.right/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599056275597" />
     <state x="490" y="235" key="Maven.ArtifactSearchDialog" timestamp="1599055469493">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="490" y="235" key="Maven.ArtifactSearchDialog/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599055469493" />
-    <state x="440" y="154" key="SettingsEditor" timestamp="1599052791694">
+    <state x="440" y="154" key="SettingsEditor" timestamp="1599056262300">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="440" y="154" key="SettingsEditor/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599052791694" />
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1599055590808">
+    <state x="440" y="154" key="SettingsEditor/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599056262300" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2" timestamp="1599055750457">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599055590808" />
+    <state x="552" y="313" key="Vcs.Push.Dialog.v2/0.0.1920.1160/-1600.542.1600.860/1920.532.1440.860@0.0.1920.1160" timestamp="1599055750457" />
     <state x="138" y="120" width="1736" height="976" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1599051149764">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
