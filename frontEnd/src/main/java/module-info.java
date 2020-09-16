@@ -1,3 +1,3 @@
-//module frontEnd {
-//    requires backEnd;
-//}
+module frontEnd {
+    requires backEnd;
+}
