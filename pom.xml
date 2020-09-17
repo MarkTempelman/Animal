@@ -11,6 +11,7 @@
     <modules>
         <module>backEnd</module>
         <module>frontEnd</module>
+        <module>UI</module>
     </modules>
 
     <properties>
