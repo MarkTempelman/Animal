@@ -1,3 +1,0 @@
-module frontEnd {
-    requires backEnd;
-}

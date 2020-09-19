@@ -8,9 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="UI" />
         <module name="backEnd" />
-        <module name="frontEnd" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="14" />
+    <bytecodeTargetLevel target="14">
+      <module name="frontEnd" target="14" />
+    </bytecodeTargetLevel>
   </component>
 </project>
