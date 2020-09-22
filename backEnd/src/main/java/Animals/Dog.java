@@ -5,8 +5,13 @@ import java.time.LocalDateTime;
 public class Dog extends Animal{
     private LocalDateTime _lastWalk;
 
+    private String _name;
+    private Gender _gender;
+    private Reservor _reservedBy;
+
     public Dog(String name, Gender gender) {
-        super(name, gender);
+        _name = name;
+        _gender = gender;
         _lastWalk = LocalDateTime.now();
     }
 
@@ -15,7 +20,26 @@ public class Dog extends Animal{
     }
 
     @Override
-    public String toString(){
-        return super.toString() + String.format(", last walk: %w", _lastWalk.toString());
+    public Boolean reserve(String reservedBy){
+        if(_reservedBy == null){
+            _reservedBy = new Reservor(reservedBy, java.time.LocalDateTime.now());
+            return true;
+        }
+        return false;
+    }
+
+    @Override
+    public String getName() {
+        return _name;
+    }
+
+    @Override
+    public Gender getGender() {
+        return _gender;
+    }
+
+    @Override
+    public Reservor getReservedBy() {
+        return _reservedBy;
     }
 }

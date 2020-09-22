@@ -10,7 +10,7 @@ class AnimalTest {
 
     @BeforeEach
     void setUp() {
-        this.animal = new Animal("Ugly Duckling", Gender.Male);
+        this.animal = new Dog("Ugly Duckling", Gender.Male);
     }
 
     @Test
@@ -27,6 +27,12 @@ class AnimalTest {
         assertNotNull(this.animal.getReservedBy());
         assertEquals("John Doe", this.animal.getReservedBy().getName());
         assertFalse(this.animal.reserve("Jane Doe"));
+    }
+
+    @Test
+    void TestToString(){
+        this.animal.reserve("John Doe");
+        assertEquals("Ugly Duckling, Male, reserved by John Doe", this.animal.toString());
     }
 
     //commit2

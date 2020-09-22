@@ -2,42 +2,22 @@ package Animals;
 
 import java.time.LocalDate;
 
-public class Animal {
-    private String _name;
-    private Gender _gender;
-    private Reservor _reservedBy;
+public abstract class Animal {
 
-    public Animal(String name, Gender gender){
-        _name = name;
-        _gender = gender;
-    }
+    abstract public String getName();
 
-    public String getName(){
-        return _name;
-    }
+    abstract public Gender getGender();
 
-    public Gender getGender(){
-        return _gender;
-    }
+    abstract public Reservor getReservedBy();
 
-    public Reservor getReservedBy(){
-        return _reservedBy;
-    }
-
-    public Boolean reserve(String reservedBy){
-        if(_reservedBy == null){
-            _reservedBy = new Reservor(reservedBy, java.time.LocalDateTime.now());
-            return true;
-        }
-        return false;
-    }
+    abstract public Boolean reserve(String reservedBy);
 
     @Override
     public String toString(){
         String reserved = "not reserved";
-        if(_reservedBy != null){
-            reserved = String.format("reserved by %n", _reservedBy.getName());
+        if(getReservedBy() != null){
+            reserved = "reserved by " + getReservedBy().getName();
         }
-        return String.format("%n, %g, %r", _name, _gender, reserved);
+        return getName() + ", " + getGender() + ", " + reserved;
     }
 }
