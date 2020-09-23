@@ -5,15 +5,22 @@ import Animals.Animal;
 import java.io.*;
 
 public class AnimalSerializer {
+
     public static void saveAnimal(Animal animal){
+        String path = "src/main/java/Data/animal.ser";
+        ObjectOutputStream out;
         try {
             FileOutputStream fileOut =
-                    new FileOutputStream("src/main/java/Data/animal.ser");
-            ObjectOutputStream out = new ObjectOutputStream(fileOut);
+                    new FileOutputStream(path);
+            if(Helper.doesFileExist(path)){
+                out = new AppendingObjectOutputStream(fileOut);
+            } else {
+                out = new ObjectOutputStream(fileOut);
+            }
             out.writeObject(animal);
             out.close();
             fileOut.close();
-            System.out.printf("Serialized data is saved in src/main/java/Data/animal.ser");
+            System.out.print("Serialized data is saved in " + path);
         } catch (IOException i) {
             i.printStackTrace();
         }
@@ -30,9 +37,8 @@ public class AnimalSerializer {
         } catch (IOException i) {
             i.printStackTrace();
         } catch (ClassNotFoundException c) {
-            System.out.println("Employee class not found");
+            System.out.println("animal class not found");
             c.printStackTrace();
-            return animal;
         }
         return animal;
     }

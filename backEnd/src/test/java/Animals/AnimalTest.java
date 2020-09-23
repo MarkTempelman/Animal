@@ -41,5 +41,11 @@ class AnimalTest {
         assertEquals("Ugly Duckling", returnAnimal.getName());
     }
 
+    @Test
+    void TestSaveMultipleAnimal(){
+        Animal cat = new Cat("kitty", Gender.Female, "nothing");
+        assertTrue(true);
+    }
+
     //commit2
 }
