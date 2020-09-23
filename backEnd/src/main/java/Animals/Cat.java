@@ -1,6 +1,6 @@
 package Animals;
 
-public class Cat extends Animal{
+public class Cat extends Animal implements java.io.Serializable{
     private String _badHabits;
     private String _name;
     private Gender _gender;

@@ -35,5 +35,11 @@ class AnimalTest {
         assertEquals("Ugly Duckling, Male, reserved by John Doe", this.animal.toString());
     }
 
+    @Test
+    void TestGetAnimal(){
+        Animal returnAnimal = Animal.getAnimal();
+        assertEquals("Ugly Duckling", returnAnimal.getName());
+    }
+
     //commit2
 }

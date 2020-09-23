@@ -1,8 +1,10 @@
 package Animals;
 
+import Serialization.AnimalSerializer;
+
 import java.time.LocalDateTime;
 
-public class Dog extends Animal{
+public class Dog extends Animal implements java.io.Serializable{
     private LocalDateTime _lastWalk;
 
     private String _name;
@@ -13,6 +15,7 @@ public class Dog extends Animal{
         _name = name;
         _gender = gender;
         _lastWalk = LocalDateTime.now();
+        AnimalSerializer.saveAnimal(this);
     }
 
     public LocalDateTime getLastWalk(){

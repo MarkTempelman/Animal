@@ -1,5 +1,7 @@
 package Animals;
 
+import Serialization.AnimalSerializer;
+
 import java.time.LocalDate;
 
 public abstract class Animal {
@@ -19,5 +21,9 @@ public abstract class Animal {
             reserved = "reserved by " + getReservedBy().getName();
         }
         return getName() + ", " + getGender() + ", " + reserved;
+    }
+
+    public static Animal getAnimal(){
+        return AnimalSerializer.getAnimal();
     }
 }
