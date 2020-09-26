@@ -1,3 +1,0 @@
-module backEnd {
-    exports Animals;
-}
