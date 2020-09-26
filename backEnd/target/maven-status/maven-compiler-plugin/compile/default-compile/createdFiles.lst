@@ -1,0 +1,11 @@
+Animals\TempTestClass.class
+Serialization\AppendingObjectOutputStream.class
+module-info.class
+Animals\Animal.class
+Animals\Reservor.class
+Serialization\Helper.class
+Animals\Dog.class
+Animals\Cat.class
+Serialization\AnimalSerializer.class
+Reservation\Reservation.class
+Animals\Gender.class
